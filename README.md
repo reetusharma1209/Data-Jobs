@@ -75,7 +75,11 @@ The project uses Facebook's Prophet library for time series forecasting:
 2. Run the time series forecasting notebook:
    ```
    jupyter notebook prophet.ipynb
+
    ```
+## Live Demo
+
+Check out the live version of the app: [Emerging Data Job Opportunities](https://reetusharma1209-data-jobs-app-app-32jadi.streamlit.app/)
 
 ## Contributing
 Contributions to this project are welcome. Please fork the repository and submit a pull request with your changes.
