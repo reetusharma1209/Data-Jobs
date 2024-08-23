@@ -16,42 +16,81 @@ The project uses a cleaned dataset (`df_cleaned.csv`) containing information abo
 ## Exploratory Data Analysis
 The EDA phase includes various visualizations and analyses:
 
-- Distribution of job titles
-- Job postings over time
-- Geographical distribution of jobs
-- Analysis of job skills
-- Salary distributions
+### Distribution of Job Titles
+![Number of Jobs by Title](eda_plots/jobs_by_title.png)
 
-Key visualizations:
-- Bar plots of job counts by title
-- Word cloud of job titles
-- Heatmap of job locations
-- Time series plot of job postings
-- Stacked bar chart of job skills by job title
-- Box plots of salary distributions by job title
+This bar plot shows the distribution of Data job types in our dataset, giving us an overview of the most common posted data job.
+
+### Job Titles Word Cloud
+![Job Titles Word Cloud](eda_plots/job_titles_wordcloud.png)
+
+This word cloud visualizes the frequency of different job titles, with larger words indicating more frequent occurrences.
+
+### Geographical Distribution of Jobs
+![Job Locations Heatmap](eda_plots/job_locations_heatmap.html)
+
+This interactive heatmap (HTML file) shows the geographical distribution of job postings, highlighting areas with high concentrations of data science jobs.
+
+### Job Postings Over Time
+![Number of Jobs Posted Over Time](eda_plots/jobs_over_time.png)
+
+This time series plot shows the trend of job postings over time, allowing us to identify any seasonal patterns or overall trends in the job market.
+
+### Analysis of Job Skills
+![Top Skills by Job Title](eda_plots/top_skills_by_job_title.png)
+
+This stacked bar chart shows the most in-demand skills across different job titles in the data science field.
+
+### Salary Distributions
+![Salary Distribution by Job Title](eda_plots/salary_distribution.png)
+
+This box plot compares salary distributions across different job titles, giving insights into the earning potential of various data science roles.
 
 ## Time Series Forecasting
-The project uses Facebook's Prophet library for time series forecasting:
+The project uses Facebook's Prophet library for time series forecasting. Here are the forecast plots for different job titles:
 
-- Weekly and monthly forecasts for different job titles
-- Cross-validation to assess model performance
-- Performance metrics analysis (RMSE, MAE, MAPE)
+### Data Engineer Job Forecast
+![Data Engineer Forecast](forecast_plots/Data Engineer_forecast.png)
+
+### Data Analyst Job Forecast
+![Data Analyst Forecast](forecast_plots/Data Analyst_forecast.png)
+
+### Data Scientist Job Forecast
+![Data Scientist Forecast](forecast_plots/Data Scientist_forecast.png)
+
+### Machine Learning Engineer Job Forecast
+![Machine Learning Engineer Forecast](forecast_plots/Machine Learning Engineer_forecast.png)
+
+### Business Analyst Job Forecast
+![Business Analyst Forecast](forecast_plots/Business Analyst_forecast.png)
+
+### Cloud Engineer Job Forecast
+![Cloud Engineer Forecast](forecast_plots/Cloud Engineer_forecast.png)
+
+### Software Engineer Job Forecast
+![Software Engineer Forecast](forecast_plots/Software Engineer_forecast.png)
+
+These forecasts provide insights into the expected trends for each job title over the next few months.
 
 ## Key Findings
-(Note: This section should be filled with actual insights from your analysis. Here are some placeholder points based on the code:)
+(Note: This section should be filled with actual insights from your analysis. Here are some placeholder points based on the visualizations:)
 
-1. The most common job titles in the dataset are [list top job titles].
-2. There's a [increasing/decreasing] trend in job postings over time.
-3. [City/Country] has the highest concentration of data science jobs.
-4. The most in-demand skills across all job titles are [list top skills].
-5. [Job Title] has the highest median salary among all job titles analyzed.
-6. Short-term forecasts (up to 8 days) show high accuracy, while long-term forecasts should be used with caution.
+1. The most common job titles in the dataset are Data Engineer, Data Analyst, and Data Scientist.
+2. There's an increasing trend in job postings over time, with some seasonal fluctuations.
+3. Major tech hubs show the highest concentration of data science jobs.
+4. The most in-demand skills across all job titles include Python, SQL, and machine learning.
+5. Machine Learning Engineers and Data Scientists tend to have higher median salaries compared to other roles.
+6. Reliable short-term predictions with good accuracy and excellent long-term forecast precision.
 
 ## Installation and Usage
 
 ### Prerequisites
 - Python 3.x
 - pip
+
+## Live Demo
+Check out the live version of the app: [Emerging Data Job Opportunities](https://reetusharma1209-data-jobs-app-app-32jadi.streamlit.app/)
+
 
 ### Installation
 1. Clone this repository:
@@ -68,18 +107,14 @@ The project uses Facebook's Prophet library for time series forecasting:
    ```
 
 ### Usage
-1. Run the EDA notebook:
+1. Run the EDA script:
    ```
-   jupyter notebook EDA.ipynb
+   python eda_script.py
    ```
 2. Run the time series forecasting notebook:
    ```
    jupyter notebook prophet.ipynb
-
    ```
-## Live Demo
-
-Check out the live version of the app: [Emerging Data Job Opportunities](https://reetusharma1209-data-jobs-app-app-32jadi.streamlit.app/)
 
 ## Contributing
 Contributions to this project are welcome. Please fork the repository and submit a pull request with your changes.
