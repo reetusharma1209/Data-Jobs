@@ -17,7 +17,7 @@ The project uses a cleaned dataset (`df_cleaned.csv`) containing information abo
 The EDA phase includes various visualizations and analyses:
 
 ### Distribution of Job Titles
-![Number of Jobs by Title](eda_plots/jobs_by_title.png)
+![Number of Jobs by Title](https://github.com/reetusharma1209/Data-Jobs/blob/main/eda_plots/job_title_plot.png)
 
 This bar plot shows the distribution of Data job types in our dataset, giving us an overview of the most common posted data job.
 
