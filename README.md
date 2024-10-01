@@ -21,20 +21,15 @@ The EDA phase includes various visualizations and analyses:
 
 This bar plot shows the distribution of Data job types in our dataset, giving us an overview of the most common posted data job.
 
-### Job Titles Word Cloud
-![Job Titles Word Cloud](eda_plots/job_titles_wordcloud.png)
-
-This word cloud visualizes the frequency of different job titles, with larger words indicating more frequent occurrences.
-
-### Geographical Distribution of Jobs
-
-
-This interactive heatmap (HTML file) shows the geographical distribution of job postings, highlighting areas with high concentrations of data science jobs.
-
 ### Job Postings Over Time
 ![Number of Jobs Posted Over Time](eda_plots/jobs_over_time.png)
 
 This time series plot shows the trend of job postings over time, allowing us to identify any seasonal patterns or overall trends in the job market.
+
+### Top countries and companies posting data jobs across globe
+![Job Posting Trends](./eda_plots/job_posting_trends_by_title.png)
+
+This bar plot displays the top countries and companies posting data-related jobs globally. 
 
 ### Analysis of Job Skills
 ![Top Skills by Job Title](eda_plots/top_skills_by_job_title.png)
