@@ -27,7 +27,7 @@ This bar plot shows the distribution of Data job types in our dataset, giving us
 This word cloud visualizes the frequency of different job titles, with larger words indicating more frequent occurrences.
 
 ### Geographical Distribution of Jobs
-![Job Locations Heatmap](eda_plots/job_locations_heatmap.html)
+![Job Locations Heatmap](https://github.com/reetusharma1209/Data-Jobs/blob/main/data_job_animation.gif?raw=true)
 
 This interactive heatmap (HTML file) shows the geographical distribution of job postings, highlighting areas with high concentrations of data science jobs.
 
