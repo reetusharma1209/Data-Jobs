@@ -27,7 +27,7 @@ This bar plot shows the distribution of Data job types in our dataset, giving us
 This time series plot shows the trend of job postings over time, allowing us to identify any seasonal patterns or overall trends in the job market.
 
 ### Top countries and companies posting data jobs across globe
-![Job Posting Trends](./eda_plots/job_posting_trends_by_title.png)
+![Job Posting Trends](./eda_plots/top_countries_and_companies_by_job_postings.png)
 
 This bar plot displays the top countries and companies posting data-related jobs globally. 
 
