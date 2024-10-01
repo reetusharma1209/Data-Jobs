@@ -22,7 +22,7 @@ The EDA phase includes various visualizations and analyses:
 This bar plot shows the distribution of Data job types in our dataset, giving us an overview of the most common posted data job.
 
 ### Job Postings Over Time
-![Number of Jobs Posted Over Time](eda_plots/jobs_over_time.png)
+![Job Posting Trends over time](./eda_plots/job_posting_trends_by_title.png)
 
 This time series plot shows the trend of job postings over time, allowing us to identify any seasonal patterns or overall trends in the job market.
 
