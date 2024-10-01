@@ -1,5 +1,5 @@
 # Data Science Job Market Analysis
-
+![Job Locations Heatmap](https://github.com/reetusharma1209/Data-Jobs/blob/main/data_job_animation.gif?raw=true)
 ## Project Overview
 This project analyzes the data science job market using a dataset of job postings. The analysis includes exploratory data analysis (EDA) and time series forecasting to understand current trends and predict future job postings.
 
@@ -27,7 +27,7 @@ This bar plot shows the distribution of Data job types in our dataset, giving us
 This word cloud visualizes the frequency of different job titles, with larger words indicating more frequent occurrences.
 
 ### Geographical Distribution of Jobs
-![Job Locations Heatmap](https://github.com/reetusharma1209/Data-Jobs/blob/main/data_job_animation.gif?raw=true)
+
 
 This interactive heatmap (HTML file) shows the geographical distribution of job postings, highlighting areas with high concentrations of data science jobs.
 
