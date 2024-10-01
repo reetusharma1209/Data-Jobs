@@ -32,12 +32,12 @@ This time series plot shows the trend of job postings over time, allowing us to 
 This bar plot displays the top countries and companies posting data-related jobs globally. 
 
 ### Analysis of Job Skills
-![Top Skills by Job Title](eda_plots/top_skills_by_job_title.png)
+![Top 20 Job Skills](./eda_plots/top_20_job_skills_by_job_title.png)
 
 This stacked bar chart shows the most in-demand skills across different job titles in the data science field.
 
 ### Salary Distributions
-![Salary Distribution by Job Title](eda_plots/salary_distribution.png)
+![Salary vs Job Frequency](./eda_plots/salary_vs_job_frequency.png)
 
 This box plot compares salary distributions across different job titles, giving insights into the earning potential of various data science roles.
 
