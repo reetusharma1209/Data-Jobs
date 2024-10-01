@@ -62,7 +62,7 @@ The project uses Facebook's Prophet library for time series forecasting. Here ar
 ![Machine Learning Engineer Forecast](forecast_plots/Machine Learning Engineer_forecast.png)
 
 ### Business Analyst Job Forecast
-![Business Analyst Forecast](forecast_plots/Business Analyst_forecast.png)
+![Business Analyst Forecast](https://github.com/reetusharma1209/Data-Jobs/blob/main/forecast_plots/Business%20Analyst_forecast.png)
 
 ### Cloud Engineer Job Forecast
 ![Cloud Engineer Forecast](forecast_plots/Cloud Engineer_forecast.png)
